@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 const Index = () => {
   return (
     <div className="bg-white dark:bg-gray-800 flex justify-center items-center w-screen h-screen">
-      <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-purple-700 via-pink-700 to-red-700 relative overflow-hidden">
+      <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-[#016475]/50 via-[#016475] to-[#016475]/70 relative overflow-hidden">
         {/* <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4MCIgaGVpZ2h0PSI2NTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICAgIDxwYXRoIGQ9Ik03MzkuNSAzOTguNWwtNi41LTEgNi41LTEgMS02LjUgMS02LjUgMS02LjUgMS02LjUgNi41LTEgNi41LTEgNi41LTEgNi41LTEgMS02LjUgMS02LjUgMS02LjUgMS02LjUgNi41LTEgNi41LTEgNi41LTEgNi41LTEgMS02LjUgMS02LjUgMS02LjUgMS02LjUgNi41LTEgNi41LTEgNi41LTEgNi41LTEiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjIpIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48L3N2Zz4=')] opacity-20"></div>
           <div className="absolute -top-40 -left-40 w-80 h-80 bg-pink-500/30 rounded-full filter blur-3xl"></div>
@@ -62,7 +62,7 @@ const Index = () => {
 
               <button
                 type="submit"
-                className="w-full py-3 px-4 bg-white text-purple-700 font-medium rounded-lg shadow-lg shadow-purple-700/30 hover:bg-white/90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-purple-700 transition-all duration-300"
+                className="w-full py-3 px-4 bg-white text-purple-800 font-medium rounded-lg shadow-lg shadow-[#016475]/10 hover:bg-white/90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#016475]/70 transition-all duration-300"
               >
                 Log in
               </button>
